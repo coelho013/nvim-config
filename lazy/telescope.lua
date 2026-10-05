@@ -12,6 +12,7 @@ return {
     vim.keymap.set("n", "<leader>fr", builtin.live_grep, {})
     vim.keymap.set("n", "<leader>ff", builtin.find_files, {})
     vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
+    vim.keymap.set("n", "<leader>fk", builtin.keymaps, {})
     vim.keymap.set("n", "<leader>fh", ":Telescope find_files hidden=true <CR>")
 
     vim.keymap.set('n', '<leader>pws', function()
