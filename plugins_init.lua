@@ -12,6 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-    spec = "coelho013-nvim-config.lazy",
+    spec = "coelho013-nvim-config.plugins",
     change_detection = { notify = false }
 })
