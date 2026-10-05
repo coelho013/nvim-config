@@ -1,8 +1,3 @@
--- cstest.nvim: testes unitarios de politicas Capacitor Studio.
--- Carregado do clone local (nao vem de um repositorio remoto).
---
--- O prefixo dos atalhos e <leader>tc para nao colidir com o neotest, que o
--- extra lazyvim.plugins.extras.test.core ja mapeia em <leader>t{t,T,r,l,s,o,O,S,w}.
 local dir = vim.env.CSTEST_DIR
 if not dir or dir == "" then
   return {}
