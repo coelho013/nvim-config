@@ -8,6 +8,7 @@ return {
       'javascript',
       'typescript',
       'java',
+			'groovy',
       'tsx',
       'json',
       'jsdoc',
