@@ -3,6 +3,10 @@ vim.keymap.set("n", "<leader>bd", ":bd<CR>")
 vim.keymap.set("n", "<leader>sv", ":vsplit<CR>")
 vim.keymap.set("n", "<leader>sh", ":split<CR>")
 vim.keymap.set('n', '<Esc>', '<cmd>noh<CR>', { silent = true })
+vim.keymap.set('n', '<C-Up>', ':resize +2<CR>', { silent = true })
+vim.keymap.set('n', '<C-Down>', ':resize -2<CR>', { silent = true })
+vim.keymap.set('n', '<C-Left>', ':vertical resize -2<CR>', { silent = true })
+vim.keymap.set('n', '<C-Right>', ':vertical resize +2<CR>', { silent = true })
 
 vim.api.nvim_create_autocmd("TextYankPost", {
   desc = "Highlights text when yanking",

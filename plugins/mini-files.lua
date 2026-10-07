@@ -7,7 +7,7 @@ return {
         go_in = '<Right>',
         go_out = '<Left>'
       }
-    })
+		})
   end,
   keys = {
     {
