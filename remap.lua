@@ -7,6 +7,8 @@ vim.keymap.set('n', '<C-Up>', ':resize +2<CR>', { silent = true })
 vim.keymap.set('n', '<C-Down>', ':resize -2<CR>', { silent = true })
 vim.keymap.set('n', '<C-Left>', ':vertical resize -2<CR>', { silent = true })
 vim.keymap.set('n', '<C-Right>', ':vertical resize +2<CR>', { silent = true })
+vim.keymap.set('n', '<leader>cfn', ':let @+ = expand("%:t")<CR>', { desc = 'Copiar nome do arquivo' })
+vim.keymap.set('n', '<leader>yh', ':registers<CR>', { desc = 'Yank History'})
 
 vim.api.nvim_create_autocmd("TextYankPost", {
   desc = "Highlights text when yanking",
